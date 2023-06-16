@@ -29,3 +29,9 @@ def readparams(request):
         
     return JsonResponse(response_data)  # abstraction to return json
 
+def seb(request):
+    response_data={}
+    response_data['dude1'] = 'dude is hot'
+    response_data['dude2'] = 'dude is a slacker'
+    response_data['dude3'] = 'dude is gone fishing'
+    return JsonResponse(response_data)

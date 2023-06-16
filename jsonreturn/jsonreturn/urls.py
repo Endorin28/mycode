@@ -6,7 +6,8 @@ from django.urls import path
 from .import views
 
 urlpatterns = [
-    path('schools/', views.schools),
+    path('schools/', views.schools), 
     path('comics/', views.readparams),  #  comics/?universe=marvel
+    path('seb/', views.seb),  #  comics/?universe=marvel
 ]
 
